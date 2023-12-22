@@ -1,0 +1,65 @@
+2023-12-21T06:31:50+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_nav_menu_items(), 0 passed in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php on line 12 and at least 1 expected in /Users/panjiajie/Local Sites/blog/app/public/wp-includes/nav-menu.php:697
+Stack trace:
+#0 /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php(12): wp_get_nav_menu_items()
+#1 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template.php(790): require_once('/Users/panjiaji...')
+#2 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template.php(725): load_template('/Users/panjiaji...', true, Array)
+#3 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/index.php(2): get_header()
+#5 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template-loader.php(106): include('/Users/panjiaji...')
+#6 /Users/panjiajie/Local Sites/blog/app/public/wp-blog-header.php(19): require_once('/Users/panjiaji...')
+#7 /Users/panjiajie/Local Sites/blog/app/public/index.php(17): require('/Users/panjiaji...')
+#8 {main}
+  thrown in /Users/panjiajie/Local Sites/blog/app/public/wp-includes/nav-menu.php on line 697
+
+2023-12-21T06:36:19+00:00 CRITICAL syntax error, unexpected token ";" in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php on line 15
+
+2023-12-21T06:36:35+00:00 CRITICAL syntax error, unexpected token ";" in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php on line 15
+
+2023-12-21T06:38:00+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_nav_menu() in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php:13
+Stack trace:
+#0 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template.php(790): require_once()
+#1 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template.php(725): load_template('/Users/panjiaji...', true, Array)
+#2 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/index.php(2): get_header()
+#4 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template-loader.php(106): include('/Users/panjiaji...')
+#5 /Users/panjiajie/Local Sites/blog/app/public/wp-blog-header.php(19): require_once('/Users/panjiaji...')
+#6 /Users/panjiajie/Local Sites/blog/app/public/index.php(17): require('/Users/panjiaji...')
+#7 {main}
+  thrown in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php on line 13
+
+2023-12-21T06:47:35+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_nav_menu() in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php:13
+Stack trace:
+#0 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template.php(790): require_once()
+#1 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template.php(725): load_template('/Users/panjiaji...', true, Array)
+#2 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/index.php(2): get_header()
+#4 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template-loader.php(106): include('/Users/panjiaji...')
+#5 /Users/panjiajie/Local Sites/blog/app/public/wp-blog-header.php(19): require_once('/Users/panjiaji...')
+#6 /Users/panjiajie/Local Sites/blog/app/public/index.php(17): require('/Users/panjiaji...')
+#7 {main}
+  thrown in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php on line 13
+
+2023-12-21T06:47:40+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_nav_menu() in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php:13
+Stack trace:
+#0 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template.php(790): require_once()
+#1 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template.php(725): load_template('/Users/panjiaji...', true, Array)
+#2 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/index.php(2): get_header()
+#4 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template-loader.php(106): include('/Users/panjiaji...')
+#5 /Users/panjiajie/Local Sites/blog/app/public/wp-blog-header.php(19): require_once('/Users/panjiaji...')
+#6 /Users/panjiajie/Local Sites/blog/app/public/index.php(17): require('/Users/panjiaji...')
+#7 {main}
+  thrown in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php on line 13
+
+2023-12-21T06:53:29+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_nav_menu() in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php:13
+Stack trace:
+#0 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template.php(790): require_once()
+#1 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template.php(725): load_template('/Users/panjiaji...', true, Array)
+#2 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/index.php(2): get_header()
+#4 /Users/panjiajie/Local Sites/blog/app/public/wp-includes/template-loader.php(106): include('/Users/panjiaji...')
+#5 /Users/panjiajie/Local Sites/blog/app/public/wp-blog-header.php(19): require_once('/Users/panjiaji...')
+#6 /Users/panjiajie/Local Sites/blog/app/public/index.php(17): require('/Users/panjiaji...')
+#7 {main}
+  thrown in /Users/panjiajie/Local Sites/blog/app/public/wp-content/themes/blog/header.php on line 13
+

@@ -2,8 +2,15 @@
 
 
     <div class="land-container full-screec-style ">
-        测试content 
-        <?php  the_content( ); ?> 
+      
+            <?php 
+                wp_nav_menu( array(
+                   "theme_location" => "navMenu" ,
+                   "menu_class" => "nav-ul land-menu position-center"
+
+                ) )
+            ?>
+     
     </div>
     
 

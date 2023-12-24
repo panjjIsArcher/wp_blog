@@ -1,4 +1,11 @@
 
 .land-container{
     background-color: #000;
+   
+}
+
+.land-menu {
+    left: 0;
+    transform: translateX(0);
+    
 }

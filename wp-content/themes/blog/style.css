@@ -12,8 +12,17 @@ Version :1.0.0
 html,body,h1,h2,h3,h4,h5,h6 {
 	margin:0;
 	padding:0;
+	color: var(--text-theme);
 }
 
 ul,li {
 	list-style-type:none;
+}
+
+.full-screec-style {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
 }

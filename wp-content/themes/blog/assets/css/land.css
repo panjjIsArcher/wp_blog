@@ -1,11 +1,1 @@
-
-.land-container{
-    background-color: #000;
-   
-}
-
-.land-menu {
-    left: 0;
-    transform: translateX(0);
-    
-}
+.land-menu{position:absolute;bottom:1.2rem;display:flex}.land-menu>li{--margin: 10vw;padding:0.1rem 0;width:calc(100vw - 2 * var(--margin));font-size:0.75rem;text-align:center;margin:0 var(--margin) 0 var(--margin);border-radius:calc(var(--margin));background-color:var(--text-theme)}.land-menu>li>a{font-weight:bold;color:var(--theme-color)}.weather-container{background-color:var(--theme-color)}.weather-container>.spot{position:absolute;top:1rem;animation-timing-function:ease-in;animation-iteration-count:infinite}.weather-common,.weather-snow,.weather-rain,.weather-flower,.weather-heavyRain{background-color:var(--theme-color)}.weather-flower>.spot{width:20px;background-color:red;height:20px;border-radius:50%}

@@ -10,13 +10,12 @@
             ?>
                 <li>
                     <a href="<?php the_permalink() ?>">
+                       
                         <img src="" alt="">
                         <h2>
                             <?php the_title(); ?>
                         </h2> 
-                        <p>
-                            <?php the_excerpt(); ?>
-                        </p>
+                        <?php the_excerpt(); ?>
                     </a>
                 </li>
             <?php  endforeach; ?>

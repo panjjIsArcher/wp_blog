@@ -8,9 +8,11 @@
     padding: 0.1rem;
 
     >.posts-ul {
+       
         >li{
             border-radius: 0.05px;
             background-color: var(--text-theme);
+           
         }
     }
 }

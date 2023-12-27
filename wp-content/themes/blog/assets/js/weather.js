@@ -16,7 +16,6 @@ const changeWeather = (index) => {
 
     // 清楚子元素
     weatherContainer.innerHTML = ""
-
     weatherContainer.removeAttribute("class")
     weatherContainer.setAttribute("class", `weather-container full-screec-style  weather-${className}`)
 
@@ -48,11 +47,10 @@ const init = () => {
     for (let i = 0; i < lists.length; i++) {
         const li = lists[i]
         const originHref = li.href;
-        li.originHref = originHref
-        li.href = "#"
+        // li.originHref = originHref
+        // li.href = "#"
         li.addEventListener("click", () => {
-            changeWeather(i + 1)
-
+            changeWeather(i + 1);
             // 禁止跳转
             return false
         })

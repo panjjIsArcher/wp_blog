@@ -3,7 +3,6 @@
     function add_stylesheet_to_head() {
         wp_enqueue_style("blog", get_stylesheet_uri());
         wp_enqueue_style("land", get_template_directory_uri()."/assets/css/land.css");
-        wp_enqueue_style("land-scss", get_template_directory_uri()."/assets/scss/land.scss");
         wp_enqueue_style("index", get_template_directory_uri()."/assets/css/index.css");
     };
 

@@ -64,3 +64,14 @@
 .weather-heavyRain {
     @extend .weather-common;
 }
+
+.land-container{
+    --margin: 10vw;
+    >.blog-title{
+        font-size: 1rem;
+        position: absolute;
+        left: var(--margin);
+        top: 0;
+        width: calc(100vw - 2 * var(--margin));
+    }
+}

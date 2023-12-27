@@ -4,6 +4,7 @@
         wp_enqueue_style("blog", get_stylesheet_uri());
         wp_enqueue_style("land", get_template_directory_uri()."/assets/css/land.css");
         wp_enqueue_style("index", get_template_directory_uri()."/assets/css/index.css");
+        wp_enqueue_style( "single", get_template_directory_uri()."/assets/css/single.css");
     };
 
     function add_script_to_head(){

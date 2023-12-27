@@ -10,9 +10,13 @@
     >.posts-ul {
        
         >li{
-            border-radius: 0.05px;
+            border-radius: 0.05rem;
             background-color: var(--text-theme);
-           
+            margin-bottom: 0.2rem;
+
+            a, p, h2 {
+                color: var(--theme-color);
+            }
         }
     }
 }

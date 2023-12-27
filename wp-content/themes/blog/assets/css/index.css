@@ -1,1 +1,1 @@
-.index-container{background-color:var(--theme-color);position:absolute;left:0;top:0;width:100vw;height:100vh}
+.index-container{background-color:var(--theme-color);position:absolute;left:0;top:0;width:100vw;height:100vh;padding:0.1rem}.index-container>.posts-ul>li{border-radius:0.05px;background-color:var(--text-theme)}
